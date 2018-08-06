@@ -71,7 +71,6 @@ function run() {
     .getElementsByTagName("thead")[0];
 
   // Insert a row in the table at the last row
-
   // var newRow = tableRef.insertRow(tableRef.rows.length);
   var newRow = tableRef.insertRow();
 
